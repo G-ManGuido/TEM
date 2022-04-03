@@ -1,0 +1,31 @@
+@font-face{
+    font-family: "skulls";
+    src: url(../fonts/skullz/skullz.ttf)
+}
+@font-face{
+    font-family: "Pmarker";
+    src: url(../fonts/PermanentMarker-Regular.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: url("../img/bg_watermark.png") no-repeat center/cover;
+    color: #dedede;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #dedede;
+}
+a:hover{
+    text-decoration: underline;
+}
