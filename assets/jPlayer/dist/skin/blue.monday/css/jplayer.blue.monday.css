@@ -31,14 +31,21 @@
 .jp-audio,
 .jp-audio-stream,
 .jp-video {
-  font-size: 16px;
-  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.8rem;
+  /* font-family: Verdana, Arial, sans-serif; */
+  font-family: "Pmarker";
+  font-family: "NewYorkPunk";
   line-height: 1.6;
   color: #666;
   border: 1px solid #333;
   background-color: #eee;
   /* box-shadow: 0px 0px 12px #ffffff; */
 }
+span{
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+
 div img{
   line-height: 0;
 }

@@ -3,8 +3,16 @@
 @import "_mixin.scss";
 
 // Kleine Endgeräte (Smartphones, 480px)
+h1{
+    font-size: 4.5rem;
+    font-family: "Punk_s_not_dead";
+    text-shadow: 0 0 6px #D53C3C;
+}
     h2{
         padding: 5% 0 1% 0;
+        font-family: "Punked_Out";
+        font-size: 3rem;
+        margin-top: 3rem;
     }
     .bLogo{
         display: none;
@@ -87,9 +95,6 @@
     .breiterText {
         grid-column: 1 / 2;
         padding: 5%;
-        h1{
-            font-size: 2.5rem;
-        }
     }
     .mp3Player {
         grid-column: 1 / 2;
@@ -99,6 +104,7 @@
         padding: 5%;
     }
     .rezitext{
+        align-items: flex-start;
         padding: 5%;
         color: #dedede;
         font-size: 1.3rem;
@@ -144,7 +150,7 @@
             padding: 0 8px;
         }
         a:hover{
-            color: #D53C3C;;
+            color: #D53C3C;
         }
     }
 
