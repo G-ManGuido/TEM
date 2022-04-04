@@ -53,7 +53,6 @@ h2 {
   padding: 5% 0 1% 0;
   font-family: "Punked_Out";
   font-size: 3rem;
-  margin-top: 3rem;
 }
 
 .bLogo {
@@ -177,8 +176,9 @@ section {
   padding: 2% 4%;
 }
 
-.six {
+.line {
   grid-column: 1/2;
+  margin-top: 5%;
 }
 
 .video {
@@ -238,7 +238,7 @@ footer a:hover {
   }
 
   .navbar {
-    grid-column: 1/13;
+    grid-column: 2/13;
     grid-row: 1/2;
     background: none;
     display: flex;
@@ -246,13 +246,13 @@ footer a:hover {
   }
   .navbar nav {
     color: #fff;
-    background: linear-gradient(95deg, rgba(162, 8, 10, 0.1) 0%, #a2080a 35%, #a2080a 100%);
-    width: 80%;
+    background: url(../img/line06_nav.png) no-repeat center/cover;
+    width: 90%;
     display: flex;
     justify-content: right;
     align-items: end;
     font-size: 1.2rem;
-    padding: 4px 0;
+    padding: 6px 2rem 4px 0;
     margin: 105px 0 0 280px;
     border-top-left-radius: 8px;
     border-top-right-radius: 4px;
@@ -308,6 +308,11 @@ footer a:hover {
   .mp3Player {
     grid-column: 2/13;
     grid-row: 6/7;
+  }
+
+  .line {
+    grid-column: 1/14;
+    margin-top: 5%;
   }
 
   .fotos {
@@ -388,6 +393,10 @@ footer a:hover {
 
   footer {
     text-align: center;
+    background: url(../img/line05_footer.png) no-repeat center/cover;
+  }
+  footer a:hover {
+    color: #000;
   }
 
   .mobile {
