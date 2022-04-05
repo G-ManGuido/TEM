@@ -314,6 +314,10 @@ footer a:hover {
     grid-column: 1/14;
     margin-top: 5%;
   }
+  .line img {
+    width: 100%;
+    height: 1.5rem;
+  }
 
   .fotos {
     grid-column: 2/13;
