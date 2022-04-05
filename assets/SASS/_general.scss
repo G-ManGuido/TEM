@@ -1,6 +1,6 @@
 @font-face{
-    font-family: "skulls";
-    src: url(../fonts/skullz/skullz.ttf)
+    font-family: "fredoka";
+    src: url(../fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf)
 }
 @font-face{
     font-family: "Pmarker";
@@ -18,13 +18,18 @@
     font-family: "Punked_Out";
     src: url(../fonts/Punked\ Out.ttf)
 }
+@font-face{
+    font-family: "skulls";
+    src: url(../fonts/skullz/skullz.ttf)
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: sans-serif;
+    font-family: "fredoka";
     background: url("../img/bg_watermark.png") no-repeat center/cover;
     color: #dedede;
 }

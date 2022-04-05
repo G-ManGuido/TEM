@@ -44,6 +44,7 @@
 span{
     font-size: 0.8rem;
     padding-left: 1rem;
+    font-family: "fredoka";
 }
 
 div img{
@@ -320,6 +321,7 @@ div img{
 
 .jp-current-time,
 .jp-duration {
+  font-family: "fredoka";
   width: 60px;
   font-size: .64em;
   font-style: oblique; }
