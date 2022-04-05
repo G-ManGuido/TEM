@@ -335,7 +335,7 @@ div img{
   float: right;
   display: inline;
   text-align: right;
-  cursor: pointer; }
+  cursor: default}
 
 .jp-video .jp-current-time {
   margin-left: 20px; }

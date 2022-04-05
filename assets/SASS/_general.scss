@@ -44,4 +44,24 @@ a{
 }
 a:hover{
     text-decoration: underline;
+    color: #D53C3C;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: "Punk_s_not_dead";
+    color: ededed;
+    text-shadow: 0 0 6px #D53C3C;
+    padding-bottom: 0.5rem;
+}
+h2{
+    padding: 1% 0 2% 0;
+    font-family: "Punked_Out";
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+p{
+    padding-bottom: 0.8rem;
 }

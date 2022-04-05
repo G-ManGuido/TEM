@@ -3,23 +3,7 @@
 @import "_mixin.scss";
 
 // Kleine Endgeräte (Smartphones, 480px)
-    h1{
-        font-size: 4.5rem;
-        font-family: "Punk_s_not_dead";
-        color: ededed;
-        text-shadow: 0 0 6px #D53C3C;
-    }
-    h2{
-        padding: 5% 0 1% 0;
-        font-family: "Punked_Out";
-        font-size: 3rem;
-    }
-    h3{
-        font-size: 1.6rem;
-    }
-    p{
-        padding-bottom: 0.8rem;
-    }
+
     .bLogo{
         display: none;
     }
@@ -120,7 +104,6 @@
             font-size: 0.8rem;
         }
         p:nth-of-type(2){
-            text-align: justify;
             padding-bottom: 0.5rem;
         }
     }
@@ -159,6 +142,12 @@
         }
         a:hover{
             color: #D53C3C;
+        }
+    }
+    section:last-child{
+        img{
+            transform: rotate(-1deg);
+            margin-bottom: 10%;
         }
     }
 
@@ -249,7 +238,7 @@
         .breiterText {
             grid-column: 2 / 13;
             // grid-row: 3 / 4;
-            padding: 0 0 5% 0;
+            padding: 0;
             font-size: 1.3rem;
         }
         .rezi {
@@ -261,6 +250,7 @@
             grid-column: 2 / 13;
             // grid-row: 5 / 6;
             font-size: 1.1rem;
+            text-align: justify;
             padding: 5% 0;
         }
         .mp3Player {
@@ -269,7 +259,9 @@
         }
         .line {
             grid-column: 1 / 14;
-            margin-top: 5%;
+            margin: 2rem 0;
+            align-items: center;
+            align-content: space-between;
             img{
                 width: 100%;
                 height: 1.5rem;
@@ -335,7 +327,7 @@
 @media only screen and (min-width: 1024px) {
     .mp3Player {
         grid-column: 7 / 13;
-        grid-row: 5 / 7
+        grid-row: 6 / 8;
         // grid-row: 4 / 6;
     }
     .rezi {
